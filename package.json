@@ -1,0 +1,15 @@
+{
+  "name": "com.kekwdetlef.unity-serializables",
+  "displayName": "Unity-Serializables",
+  "version": "0.1.0",
+  "unity": "6000.3",
+  "unityRelease": "2f1",
+  "description": "Serialized Dictionary, HashSet, List, UniqueList + ProprtyDrawers",
+  "dependencies": {
+    "com.unity.test-framework": "1.6.0"
+  },
+  "author": {
+    "name": "Tom Sch\u00fcler alias KEKW Detlef",
+    "email": "tom.schueler01@t-online.de"
+  }
+}

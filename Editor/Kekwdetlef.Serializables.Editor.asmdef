@@ -1,0 +1,18 @@
+{
+    "name": "Kekwdetlef.Serializables.Editor",
+    "rootNamespace": "Kekwdetlef.Serializables.Editor",
+    "references": [
+        "GUID:29ab1b479d47bbd4393f4aa66efe81a1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

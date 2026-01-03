@@ -1,0 +1,39 @@
+Open Source License for Unity-Serializables
+
+Copyright (c) 2026 Tom Schüler alias KEKW Detlef
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this package and associated documentation files (the "Package"), to use
+and modify the Package under the following conditions:
+
+1. PERMITTED USE
+You are allowed to:
+- Use this Package in personal, educational, or commercial projects.
+- Use this Package in games or other software products that you create and distribute (free or paid).
+- Modify the Package for your own use.
+
+2. RESTRICTIONS
+You are NOT allowed to:
+- Sell, sublicense, or commercially distribute the Package itself, in original or modified form.
+- Use the Package to create or distribute a competing package, toolkit, or asset for sale.
+- Redistribute the Package as a standalone product, whether free or paid.
+- Claim authorship of the original Package.
+
+3. REDISTRIBUTION
+Non-commercial redistribution of the unmodified Package (for example, sharing the GitHub link or
+including it in an open-source collection) is allowed, provided that:
+- This license text is included in all copies.
+- Proper credit to the original author is maintained.
+
+4. OWNERSHIP
+All rights not expressly granted in this license are reserved by the original author.
+You are granted a license to use the Package, not ownership of the Package itself.
+
+5. WARRANTY AND LIABILITY
+The Package is provided "as is", without warranty of any kind, express or implied, including but not
+limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement.
+In no event shall the author or copyright holder be liable for any claim, damages, or other liability,
+whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the
+Package or the use or other dealings in the Package.
+
+By using this Package, you agree to the terms of this license.
