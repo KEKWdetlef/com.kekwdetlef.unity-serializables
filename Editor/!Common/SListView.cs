@@ -12,23 +12,25 @@ namespace Kekwdetlef.Serializables.Editor
         private readonly SerializedProperty listProperty;
         private readonly VisualElement internalContentContainer;
         private readonly Type listItemType;
+        private readonly IntegerField listLengthField;
 
         public SListView(SerializedProperty listProperty, Type listItemType, IntegerField listLengthField)
         {
             this.listProperty = listProperty;
             this.listItemType = listItemType;
+            this.listLengthField = listLengthField;
 
             internalContentContainer = new VisualElement();
             hierarchy.Add(internalContentContainer);
 
             Rebuild();
-
-            listLengthField.value = listProperty.arraySize;
+            
             listLengthField.RegisterValueChangedCallback((callbackContext) => SetLength(callbackContext.newValue));
         }
 
         internal void Rebuild()
         {
+            listLengthField.value = listProperty.arraySize;
             internalContentContainer.Clear();
 
             int listLength = listProperty.arraySize;
