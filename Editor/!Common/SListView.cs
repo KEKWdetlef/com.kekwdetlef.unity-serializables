@@ -125,11 +125,11 @@ namespace Kekwdetlef.Serializables.Editor
 
         private void SetLength(int newLength)
         {
+            listProperty.serializedObject.Update();
+
             int listLength = listProperty.arraySize;
             if (newLength == listLength)
             { return; }
-
-            listProperty.serializedObject.Update();
 
             if (newLength < listLength)
             {
@@ -146,8 +146,7 @@ namespace Kekwdetlef.Serializables.Editor
                 }
             }
 
-            listProperty.serializedObject.ApplyModifiedProperties();
-            Rebuild();
+            ApplyChanges();
         }
 
         private Label CreateEmptyListLabel(string text) => new Label(text)
