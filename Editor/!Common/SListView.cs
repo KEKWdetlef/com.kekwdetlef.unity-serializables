@@ -30,7 +30,7 @@ namespace Kekwdetlef.Serializables.Editor
 
         internal void Rebuild()
         {
-            listLengthField.value = listProperty.arraySize;
+            listLengthField.SetValueWithoutNotify(listProperty.arraySize);
             internalContentContainer.Clear();
 
             int listLength = listProperty.arraySize;
